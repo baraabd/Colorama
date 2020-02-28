@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./style.css">
+    <title>Colorama</title>
+</head>
+
+<body id="backcolor">
+    <div class="fixed">
+        <div class="container">
+            <div class="title"> Kom och lära dig färger!</div>
+            <div class="instruction"> Tryck på Enter från tangentbordet när du skriver färg</div>
+
+            <div>
+                <label for="" onkeydown="check(event)" class="elheight">Färg <input type="text" id="txtcolor" ></label>
+                <button onkeypress="changeColor()" class="elheight" id="Btn">Byta färg </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="./handler.js"></script>
+</body>
+
+</html>
